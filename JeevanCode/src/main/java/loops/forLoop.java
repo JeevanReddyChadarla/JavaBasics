@@ -35,10 +35,10 @@ public class forLoop {
 //	*****
 	public static void printPattern(int l, int b) {
 		for(int i=0;i<b;i++) {
-			for(int j=1;j<l;j++) {
+			for(int j=0;j<l;j++) {
 				System.out.print("*");
 			}
-			System.out.println("*");
+			System.out.println("");
 		}
 	}
 	public static void main(String[] args) {

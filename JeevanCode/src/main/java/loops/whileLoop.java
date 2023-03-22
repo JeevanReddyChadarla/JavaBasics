@@ -37,14 +37,14 @@ public class whileLoop {
 //	*****
 //	*****
 	public static void printPattern(int l, int b) {
-		int i =0, j=1;
+		int i =0, j=0;
 		while(i<b) {
 			while(j<l) {
 				System.out.print("*");
 				j++;
 			}
-			j=1;
-			System.out.println("*");
+			j=0;
+			System.out.println("");
 			i++;
 		}
 	}
