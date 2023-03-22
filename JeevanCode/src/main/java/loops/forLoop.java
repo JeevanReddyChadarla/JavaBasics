@@ -70,9 +70,26 @@ public class forLoop {
 //	**
 //	***
 //	****
+//	public static void printPattern3(int l, int b) {
+//		for(int i=1;i<=b;i++) {
+//			for(int j=1;j<=i;j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//	}
+//	public static void main(String[] args) {
+//		printPattern3(5, 4);
+//	}
+
+	////Print Pattern-4
+//	****
+//	***
+//	**
+//	*
 	public static void printPattern3(int l, int b) {
 		for(int i=1;i<=b;i++) {
-			for(int j=1;j<=i;j++) {
+			for(int j=1;j<=l-i;j++) {
 				System.out.print("*");
 			}
 			System.out.println();
