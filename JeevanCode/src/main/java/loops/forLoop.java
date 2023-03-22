@@ -50,18 +50,35 @@ public class forLoop {
 //	*	*
 //	*	*
 //	*****
-	public static void printPattern2(int l, int b) {
+//	public static void printPattern2(int l, int b) {
+//		for(int i=1;i<=b;i++) {
+//			for(int j=1;j<=l;j++) {
+//				if(i==1 || i==b || j==1 || j==l) {
+//					System.out.print("*");
+//				}else
+//				System.out.print(" ");
+//			}
+//			System.out.println();
+//		}
+//	}
+//	public static void main(String[] args) {
+//		printPattern2(5, 4);
+//	}
+	
+	////Print Pattern-3
+//	*
+//	**
+//	***
+//	****
+	public static void printPattern3(int l, int b) {
 		for(int i=1;i<=b;i++) {
-			for(int j=1;j<=l;j++) {
-				if(i==1 || i==b || j==1 || j==l) {
-					System.out.print("*");
-				}else
-				System.out.print(" ");
+			for(int j=1;j<=i;j++) {
+				System.out.print("*");
 			}
 			System.out.println();
 		}
 	}
 	public static void main(String[] args) {
-		printPattern2(5, 4);
+		printPattern3(5, 4);
 	}
 }
