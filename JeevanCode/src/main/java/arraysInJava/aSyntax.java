@@ -10,6 +10,7 @@ public class aSyntax {
 //	memory allocation - 
 //	when we declare the size of an array while creating the array,
 //	with the given size a memory will be allocated in memeory 
+//	https://github.com/JeevanReddyChadarla/JavaBasics/blob/main/JeevanCode/images/arraymemory.JPG
 
 //	1. dataType arrayName[] = new dataType[sizeOfArray];
 //	2. dataType arrayName[] = {num1, num2, num3};
